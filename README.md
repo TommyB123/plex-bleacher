@@ -28,7 +28,11 @@ Requires episodes from the following edited versions of the Bleach anime to be p
 
 # Data sources
 [Concentrated Bleach Episode Names](https://docs.google.com/spreadsheets/d/1bz-Ye4yAXmX31K_abAV7kNUq3lwOBg6aiOxAHaFDRl8)
+
 [Concentrated Bleach Episode Descriptions](https://gablog520.wordpress.com/)
+
 [Concentrated Bleach Episode Thumbnails](https://drive.google.com/file/d/1GBQ3VMIPcpzyfH9bFfAZyFPlhv2XVrpX/view)
+
 [Hollowed Bleach Episode Names](https://docs.google.com/spreadsheets/d/1-ipC6DpZw4GlmMnUw4fOsIWXCbK0s0St2vbsMPr6WfI/edit?gid=0#gid=0)
+
 [Chipped Bleach Episode Names](https://docs.google.com/spreadsheets/d/1_mWoBFl2kmhKYDwkO4zM6O4YQscehVpGdzJ79Ro5YgU/edit?gid=463466426#gid=463466426)

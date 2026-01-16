@@ -13,6 +13,9 @@ Requires episodes from the following edited versions of the Bleach anime to be p
  * Hollowed Bleach (Arrancar arc)
  * Chipped Bleach (Fullbring arc)
 
+Requires a custom series named Concentrated Bleach to be present on your media server.
+
+
 # How to use
 * Ensure the Python programming language is available on your system. If you don't have it, you can easily grab it through the [Microsoft Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
 * Install the Plex API library for Python. Enter `pip install plexapi` into your command prompt/terminal.

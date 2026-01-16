@@ -1,5 +1,5 @@
 # Plex Bleacher
-Plex Bleacher is a simple and somewhat jank script that can be used to organize various edits of the Bleach anime on your Plex library. It offers the ability to organize your files into season folders appropriately, apply respective metadata through the Plex API and also assign custom season posters.
+Plex Bleacher is a simple and somewhat jank script that can be used to organize various edits of the Bleach anime on your Plex library. It offers the ability to organize your files into season folders appropriately, apply respective metadata through the Plex API and also assign custom episode thumbnails.
 
 It is primarily meant to be used with the Concentrated Bleach edit, but also supports Hollowed Bleach and Chipped Bleach.
 

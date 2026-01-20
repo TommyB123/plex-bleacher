@@ -110,7 +110,7 @@ def apply_plex_metadata():
 
     print('Successfully found Concentrated Bleach series. Searching for episodes to apply metadata to.')
     episodes_changed = 0
-    episodes: Episode = cb_series.episodes()
+    episodes: MediaContainer[Episode] = cb_series.episodes()
     for episode in episodes:
         _, metadata = get_bleach_episode_metadata(episode.seasonNumber, episode.episodeNumber)
         if metadata is None:
@@ -123,8 +123,9 @@ def apply_plex_metadata():
             print(f"Applied episode title to {episode.seasonEpisode.upper()} ({metadata['title']})")
             changed = True
 
-        if episode.summary != metadata['summary']:
-            episode.editSummary(metadata['summary'])
+        newsummary = f'{metadata['summary']}\nManga Chapters: {metadata['chapters']}\nEdited Episodes: {metadata['episodes']}'
+        if episode.summary != newsummary:
+            episode.editSummary(newsummary)
             print(f"Applied episode summary to {episode.seasonEpisode.upper()}")
             changed = True
 
@@ -141,7 +142,7 @@ def apply_plex_metadata():
 
 
 def apply_tybw_metadata():
-    confirm = input('OPTIONAL: Would you like to apply metadata to the TYBW arc? Only select this if those episodes are present under a Season 5 folder.')
+    confirm = input('OPTIONAL: Would you like to apply metadata to the TYBW arc? Only select this if those episodes are present under a Season 5 folder.\nY/N\n')
     if confirm.lower() != 'y':
         return
 
@@ -162,8 +163,9 @@ def apply_tybw_metadata():
             print(f"Applied episode title to {episode.seasonEpisode.upper()} ({metadata['title']})")
             changed = True
 
-        if episode.summary != metadata['summary']:
-            episode.editSummary(metadata['summary'])
+        newsummary = f'{metadata['summary']}\nManga Chapters: {metadata['chapters']}'
+        if episode.summary != newsummary:
+            episode.editSummary(newsummary)
             print(f"Applied episode summary to {episode.seasonEpisode.upper()}")
             changed = True
 

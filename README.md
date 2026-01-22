@@ -9,7 +9,7 @@ Optional support for the Thousand-Year Blood War arc to create a seamless watchi
 
 # Prerequisites
 Requires episodes from the following edited versions of the Bleach anime to be present with **their file names untouched**
- * Concentrated Bleach (Substitute Soul Reaper, Soul Societs and Arrancar (WIP) arcs)
+ * Concentrated Bleach (Substitute Soul Reaper, Soul Society and Arrancar (WIP) arcs)
  * Hollowed Bleach (Arrancar arc)
  * Chipped Bleach (Fullbring arc)
 

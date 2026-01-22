@@ -187,6 +187,10 @@ def apply_cb_thumbnails():
     for episode in episodes:
         originalname, metadata = get_bleach_episode_metadata(episode.seasonNumber, episode.episodeNumber)
 
+        if originalname is None:
+            # skip episodes that don't resolve any metadata
+            continue
+
         if originalname.find('Hollowed Bleach') != -1 or originalname.find('Chipped Bleach') != -1:
             # skip episodes that aren't Concentrated Bleach edits
             continue

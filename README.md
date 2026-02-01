@@ -5,7 +5,7 @@ It is primarily meant to be used with the Concentrated Bleach edit, but also sup
 
 Optional support for the Thousand-Year Blood War arc to create a seamless watching experience for all of Bleach.
 
-[Click here to download](https://github.com/TommyB123/plex-bleacher/archive/refs/heads/main.zip)
+[Click here to download](https://github.com/TommyB123/plex-bleacher/archive/refs/heads/master.zip)
 
 # Prerequisites
 Requires episodes from the following edited versions of the Bleach anime to be present with **their file names untouched**
@@ -19,7 +19,7 @@ Requires a custom series named Concentrated Bleach to be present on your media s
 # How to use
 * Ensure the Python programming language is available on your system. If you don't have it, you can easily grab it through the [Microsoft Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
 * Install the Plex API library for Python. Enter `pip install plexapi` into your command prompt/terminal.
-* Download the latest release [here](https://github.com/TommyB123/plex-bleacher/archive/refs/heads/main.zip).
+* Download the latest release [here](https://github.com/TommyB123/plex-bleacher/archive/refs/heads/master.zip).
 * Extract the zip file to the folder containing your edited Bleach episodes.
 * Edit `config.json` with any text editor and fill out your Plex username and password alongside the name of the media server you will be creating your Concentrated Bleach series entry on.
 * Answer Y/N (yes/no) to each prompt as they appear. 

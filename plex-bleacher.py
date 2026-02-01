@@ -68,6 +68,7 @@ def organize_files():
                 if file.find('Hollowed Bleach') != -1:
                     newname = f'Hollowed Bleach S{season_number:02d}E{episode_number:02d} - {episode_title} (HB {absolute_episode}){extension}'
                 elif file.find('Chipped Bleach') != -1:
+                    episode_title = episode_title.replace('/', '-')  # fixes a filename issue due to a chipped bleach episode title containing a bad character
                     newname = f'Chipped Bleach S{season_number:02d}E{episode_number:02d} - {episode_title} (Chipped Bleach {absolute_episode}){extension}'
                 else:
                     newname = f'Concentrated Bleach S{season_number:02d}E{episode_number:02d} - {episode_title} (CB {absolute_episode}){extension}'

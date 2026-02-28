@@ -55,9 +55,15 @@ def organize_files():
     # organize files first
     for path, dirs, files in os.walk('.'):
         for file in files:
-            if series_data['episodes'].get(file) is not None:
+            temp_file = file
+            # remove (dub) and (sub) from hollowed bleach episodes
+            if file.find('Hollowed Bleach') != -1:
+                temp_file = file.replace(' (dub)', '')
+                temp_file = temp_file.replace(' (sub)', '')
+
+            if series_data['episodes'].get(temp_file) is not None:
                 # get episode metadata ready
-                episode = series_data['episodes'].get(file)
+                episode = series_data['episodes'].get(temp_file)
                 season_number = episode['season']
                 episode_number = episode['episode']
                 episode_title = episode['title']
@@ -124,7 +130,7 @@ def apply_plex_metadata():
             print(f"Applied episode title to {episode.seasonEpisode.upper()} ({metadata['title']})")
             changed = True
 
-        newsummary = f'{metadata['summary']}\nManga Chapters: {metadata['chapters']}\nEdited Episodes: {metadata['episodes']}'
+        newsummary = f'{metadata['summary']}\nManga Chapters: {metadata['chapters']} | Edited Episodes: {metadata['episodes']}'
         if episode.summary != newsummary:
             episode.editSummary(newsummary)
             print(f"Applied episode summary to {episode.seasonEpisode.upper()}")

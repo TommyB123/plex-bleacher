@@ -524,13 +524,24 @@
             "chapters": "227-229",
             "episodes":    "127"
         },
-        "Hollowed Bleach 01 - Hush.mp4":
+        "Hollowed Bleach 01 - HUSH.mp4":
         {
             "season": 3,
-            "episode": 21,
+            "episode": 30,
             "absolute_episode": 1,
-            "title": "Hush",
-            "summary": "It's the start of a new semester! Alongside it, a new student—who seems to be interested in Ichigo—transfers into Karakura High!",
+            "title": "HUSH",
+            "summary": "",
+            "release_date": "2002-01-09",
+            "chapters": "183-188",
+            "episodes": "064, 110-112"
+        },
+        "Hollowed Bleach 01 EX - HUSH.mp4":
+        {
+            "season": 3,
+            "episode": 30,
+            "absolute_episode": 1,
+            "title": "HUSH",
+            "summary": "",
             "release_date": "2002-01-09",
             "chapters": "183-188",
             "episodes": "064, 110-112"
@@ -538,7 +549,7 @@
         "Hollowed Bleach 02 - Conquistadores.mp4":
         {
             "season": 3,
-            "episode": 22,
+            "episode": 31,
             "absolute_episode": 2,
             "title": "Conquistadores",
             "summary": "",
@@ -549,7 +560,7 @@
         "Hollowed Bleach 03 - Death & Strawberry (Reprise).mp4":
         {
             "season": 3,
-            "episode": 23,
+            "episode": 32,
             "absolute_episode": 3,
             "title": "Death & Strawberry (Reprise)",
             "summary": "",
@@ -560,18 +571,7 @@
         "Hollowed Bleach 04 - ¡Mala Suerte!.mp4":
         {
             "season": 3,
-            "episode": 24,
-            "absolute_episode": 4,
-            "title": "¡Mala Suerte!",
-            "summary": "",
-            "release_date": "2002-01-09",
-            "chapters": "200-206",
-            "episodes": "116-119"
-        },
-        "Hollowed Bleach 04 EX - ¡Mala Suerte!.mp4":
-        {
-            "season": 3,
-            "episode": 24,
+            "episode": 33,
             "absolute_episode": 4,
             "title": "¡Mala Suerte!",
             "summary": "",
@@ -582,7 +582,7 @@
         "Hollowed Bleach 05 - Immanent God Blues.mp4":
         {
             "season": 3,
-            "episode": 25,
+            "episode": 34,
             "absolute_episode": 5,
             "title": "Immanent God Blues",
             "summary": "",
@@ -590,12 +590,12 @@
             "chapters": "207-214",
             "episodes": "120-122"
         },
-        "Hollowed Bleach 06 - No Shaking Throne.mp4":
+        "Hollowed Bleach 06 - NO SHAKING THRONE.mp4":
         {
             "season": 3,
-            "episode": 26,
+            "episode": 35,
             "absolute_episode": 6,
-            "title": "No Shaking Throne",
+            "title": "NO SHAKING THRONE",
             "summary": "",
             "release_date": "2002-01-09",
             "chapters": "214-222",
@@ -604,7 +604,7 @@
         "Hollowed Bleach 07 - Right of My Heart.mp4":
         {
             "season": 3,
-            "episode": 27,
+            "episode": 36,
             "absolute_episode": 7,
             "title": "Right of My Heart",
             "summary": "",
@@ -615,7 +615,7 @@
         "Hollowed Bleach 08 - The Mascaron Drive.mp4":
         {
             "season": 3,
-            "episode": 28,
+            "episode": 37,
             "absolute_episode": 8,
             "title": "The Mascaron Drive",
             "summary": "",
@@ -623,10 +623,10 @@
             "chapters": "229-234",
             "episodes": "127, 138-139"
         },
-        "Hollowed Bleach 09 - Goodbye, Halcyon Days.mp4":
+        "Hollowed Bleach 09 - goodbye, halcyon days.mp4":
         {
             "season": 3,
-            "episode": 29,
+            "episode": 38,
             "absolute_episode": 9,
             "title": "Goodbye, Halcyon Days",
             "summary": "",
@@ -634,23 +634,12 @@
             "chapters": "234-237",
             "episodes": "140-141"
         },
-        "Hollowed Bleach 09 EX - Goodbye, Halcyon Days.mp4":
+        "Hollowed Bleach 10 - WINGED EAGLES.mp4":
         {
             "season": 3,
-            "episode": 29,
-            "absolute_episode": 9,
-            "title": "Goodbye, Halcyon Days",
-            "summary": "",
-            "release_date": "2002-01-09",
-            "chapters": "234-237",
-            "episodes": "140-141"
-        },
-        "Hollowed Bleach 10 - Winged Eagles.mp4":
-        {
-            "season": 3,
-            "episode": 30,
+            "episode": 39,
             "absolute_episode": 10,
-            "title": "Winged Eagles",
+            "title": "WINGED EAGLES",
             "summary": "",
             "release_date": "2002-01-09",
             "chapters": "238-241",
@@ -659,7 +648,7 @@
         "Hollowed Bleach 11 - United on the Desert.mp4":
         {
             "season": 3,
-            "episode": 31,
+            "episode": 40,
             "absolute_episode": 11,
             "title": "United on the Desert",
             "summary": "",
@@ -667,10 +656,10 @@
             "chapters": "241-247",
             "episodes": "144-146, 149"
         },
-        "Hollowed Bleach 11 EX - United on the Desert.mp4":
+        "Hollowed Bleach 11 EX - UNITED ON THE DESERT.mp4":
         {
             "season": 3,
-            "episode": 31,
+            "episode": 40,
             "absolute_episode": 11,
             "title": "United on the Desert",
             "summary": "",
@@ -689,363 +678,451 @@
             "chapters": "Filler / 247",
             "episodes": "147-149"
         },
-        "Hollowed Bleach 12 - Baron's Lecture.mp4":
+        "Hollowed Bleach 12 - Back to the Innocence.mp4":
         {
             "season": 3,
-            "episode": 32,
+            "episode": 42,
             "absolute_episode": 12,
+            "title": "Back to the Innocence",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "248-250",
+            "episodes": "150-151"
+        },
+        "Hollowed Bleach 13 - Baron's Lecture.mp4":
+        {
+            "season": 3,
+            "episode": 43,
+            "absolute_episode": 13,
             "title": "Baron's Lecture",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "248-254",
-            "episodes": "150-153"
+            "chapters": "251-254",
+            "episodes": "151-153"
         },
-        "Hollowed Bleach 13 - The Slashing Opera.mp4":
+        "Hollowed Bleach 14 - The Slashing Opera.mp4":
         {
             "season": 3,
-            "episode": 33,
-            "absolute_episode": 13,
+            "episode": 44,
+            "absolute_episode": 14,
             "title": "The Slashing Opera",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "254-261",
-            "episodes": "153-158"
+            "chapters": "254-259",
+            "episodes": "153, 156-157"
         },
-        "Hollowed Bleach 14 - No Heart Without You.mp4":
+        "Hollowed Bleach 15 - Left Arm of the Devil.mp4":
         {
             "season": 3,
-            "episode": 34,
-            "absolute_episode": 14,
+            "episode": 45,
+            "absolute_episode": 15,
+            "title": "Left Arm of the Devil",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "259-262",
+            "episodes": "157-159"
+        },
+        "Hollowed Bleach 16 - Hide Away From the Sun.mp4":
+        {
+            "season": 3,
+            "episode": 46,
+            "absolute_episode": 16,
+            "title": "Hide Away From the Sun",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "262-266",
+            "episodes": "153-155"
+        },
+        "Hollowed Bleach 17 - There Is No Heart Without You.mp4":
+        {
+            "season": 3,
+            "episode": 47,
+            "absolute_episode": 17,
             "title": "No Heart Without You",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "262-269",
-            "episodes": "153-155, 159-160"
+            "chapters": "266-269",
+            "episodes": "155, 159-160"
         },
-        "Hollowed Bleach 15 - Don't Kill My Volupture.mp4":
+        "Hollowed Bleach 18 - Don't Kill My Volupture.mp4":
         {
             "season": 3,
-            "episode": 35,
-            "absolute_episode": 15,
+            "episode": 48,
+            "absolute_episode": 18,
             "title": "Don't Kill My Volupture",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "264-265, 269-276",
-            "episodes": "159, 161-164"
+            "chapters": "264-265, 270-272",
+            "episodes": "159, 161-162"
         },
-        "Hollowed Bleach 16 - Howling.mp4":
+        "Hollowed Bleach 19 - The Monster.mp4":
         {
             "season": 3,
-            "episode": 36,
-            "absolute_episode": 16,
+            "episode": 49,
+            "absolute_episode": 19,
+            "title": "The Monster",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "272-278",
+            "episodes": "162-164"
+        },
+        "Hollowed Bleach 20 - Jugulators.mp4":
+        {
+            "season": 3,
+            "episode": 50,
+            "absolute_episode": 20,
+            "title": "Jugulators",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "279-282",
+            "episodes": "164-166"
+        },
+        "Hollowed Bleach 21 - Howling.mp4":
+        {
+            "season": 3,
+            "episode": 51,
+            "absolute_episode": 21,
             "title": "Howling",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "277-286",
-            "episodes": "164-167"
+            "chapters": "282-286",
+            "episodes": "166-167"
         },
-        "Hollowed Bleach 17 - THE BAD JOKE.mp4":
+        "Hollowed Bleach 22 - THE BAD JOKE.mp4":
         {
             "season": 3,
-            "episode": 37,
-            "absolute_episode": 17,
+            "episode": 52,
+            "absolute_episode": 22,
             "title": "THE BAD JOKE",
             "summary": "",
             "release_date": "2002-01-11",
             "chapters": "286-292",
             "episodes": "190-192"
         },
-        "Hollowed Bleach 18 - King of the Kill.mp4":
+        "Hollowed Bleach 23 - King of the Kill.mp4":
         {
             "season": 3,
-            "episode": 38,
-            "absolute_episode": 18,
+            "episode": 53,
+            "absolute_episode": 23,
             "title": "King of the Kill",
             "summary": "",
             "release_date": "2002-01-11",
             "chapters": "292-297",
             "episodes": "193-195"
         },
-        "Hollowed Bleach 19 - INTRUDERZ.mp4":
+        "Hollowed Bleach 24 - INTRUDERZ.mp4":
         {
             "season": 3,
-            "episode": 39,
-            "absolute_episode": 19,
+            "episode": 54,
+            "absolute_episode": 24,
             "title": "INTRUDERZ",
             "summary": "",
             "release_date": "2002-01-11",
             "chapters": "298-303",
             "episodes": "196-198"
         },
-        "Hollowed Bleach 20 - Not Perfect Is GOoD.mp4":
+        "Hollowed Bleach 25 - Not Perfect is GOoD.mp4":
         {
             "season": 3,
-            "episode": 40,
-            "absolute_episode": 20,
-            "title": "Not Perfect Is GOoD",
+            "episode": 55,
+            "absolute_episode": 25,
+            "title": "Not Perfect is GOoD",
             "summary": "",
             "release_date": "2002-01-11",
             "chapters": "304-308",
             "episodes": "199-201"
         },
-        "Hollowed Bleach 21 - TO CLOSE YOUR WORLD.mp4":
+        "Hollowed Bleach 26 - TO CLOSE YOUR WORLD.mp4":
         {
             "season": 3,
-            "episode": 41,
-            "absolute_episode": 21,
+            "episode": 56,
+            "absolute_episode": 26,
             "title": "TO CLOSE YOUR WORLD",
             "summary": "",
             "release_date": "2002-01-11",
             "chapters": "309-315",
             "episodes": "201-203"
         },
-        "Hollowed Bleach 22 - Turn Back the Pendulum.mp4":
+        "Hollowed Bleach 27 - Turn Back the Pendulum.mp4":
         {
             "season": 3,
-            "episode": 42,
-            "absolute_episode": 22,
-            "title": "Turn Back the Pendulum",
+            "episode": 57,
+            "absolute_episode": 27,
+            "title": "Turn Back The Pendulum",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "-108- to -97",
-            "episodes": "206-212"
+            "chapters": "-108 to -104",
+            "episodes": "206-208"
         },
-        "Hollowed Bleach 22 EX - Turn Back the Pendulum.mp4":
+        "Hollowed Bleach 28 - The Pendulum Keeps Swinging.mp4":
         {
             "season": 3,
-            "episode": 42,
-            "absolute_episode": 22,
-            "title": "Turn Back the Pendulum",
+            "episode": 58,
+            "absolute_episode": 28,
+            "title": "The Pendulum Keeps Swinging",
             "summary": "",
             "release_date": "2002-01-11",
-            "chapters": "-108- to -97",
-            "episodes": "206-212"
+            "chapters": "-104 to -101",
+            "episodes": "209-210"
         },
-        "Hollowed Bleach 22.8 - A Wonderful Error.mp4":
+        "Hollowed Bleach 29 - Let Stop the Pendulum.mp4":
+        {
+            "season": 3,
+            "episode": 59,
+            "absolute_episode": 29,
+            "title": "Let Stop the Pendulum",
+            "summary": "",
+            "release_date": "2002-01-11",
+            "chapters": "-100 to -97",
+            "episodes": "211-212"
+        },
+        "Hollowed Bleach 29.5 (0.8) - a wonderful error.mp4":
         {
             "season": 0,
             "episode": 4,
-            "absolute_episode": "22.8",
-            "title": "A Wonderful Error",
+            "absolute_episode": 0.8,
+            "title": "a wonderful error",
             "summary": "",
             "release_date": "2002-01-12",
             "chapters": "0.8",
             "episodes": "227"
         },
-        "Hollowed Bleach 23 - Six Hearts Will Beat as One.mp4":
+        "Hollowed Bleach 30 - Six Hearts WIll Beat As One.mp4":
         {
             "season": 3,
-            "episode": 43,
-            "absolute_episode": 23,
+            "episode": 61,
+            "absolute_episode": 30,
             "title": "Six Hearts Will Beat as One",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "316-319",
             "episodes": "215-216"
         },
-        "Hollowed Bleach 24 - Ants & Dragons.mp4":
+        "Hollowed Bleach 31 - Ants & Dragons.mp4":
         {
             "season": 3,
-            "episode": 44,
-            "absolute_episode": 24,
+            "episode": 62,
+            "absolute_episode": 31,
             "title": "Ants & Dragons",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "320-324",
             "episodes": "217-218"
         },
-        "Hollowed Bleach 25 - Knockdown Monsters.mp4":
+        "Hollowed Bleach 32 - Knockdown Monsters.mp4":
         {
             "season": 3,
-            "episode": 45,
-            "absolute_episode": 25,
+            "episode": 63,
+            "absolute_episode": 32,
             "title": "Knockdown Monsters",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "324-329",
             "episodes": "219-221"
         },
-        "Hollowed Bleach 26 - Stingy Stinger.mp4":
+        "Hollowed Bleach 33 - Stingy Stinger.mp4":
         {
             "season": 3,
-            "episode": 46,
-            "absolute_episode": 26,
+            "episode": 64,
+            "absolute_episode": 33,
             "title": "Stingy Stinger",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "330-333",
             "episodes": "221-223"
         },
-        "Hollowed Bleach 27 - The Deathbringer Numbers.mp4":
+        "Hollowed Bleach 34 - The Deathbringer Numbers.mp4":
         {
             "season": 3,
-            "episode": 47,
-            "absolute_episode": 27,
+            "episode": 65,
+            "absolute_episode": 34,
             "title": "The Deathbringer Numbers",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "333-339",
             "episodes": "224-226"
         },
-        "Hollowed Bleach 28 - The Sin.mp4":
+        "Hollowed Bleach 35 - The Sin.mp4":
         {
             "season": 3,
-            "episode": 48,
-            "absolute_episode": 28,
+            "episode": 66,
+            "absolute_episode": 35,
             "title": "The Sin",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "340-345",
             "episodes": "267-269"
         },
-        "Hollowed Bleach 29 - heart.mp4":
+        "Hollowed Bleach 36 - heart.mp4":
         {
             "season": 3,
-            "episode": 49,
-            "absolute_episode": 29,
+            "episode": 67,
+            "absolute_episode": 36,
             "title": "heart",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "346-354",
             "episodes": "270-272"
         },
-        "Hollowed Bleach 30 - Tyrant of Skulls.mp4":
+        "Hollowed Bleach 37 - Tyrant of Skulls.mp4":
         {
             "season": 3,
-            "episode": 50,
-            "absolute_episode": 30,
+            "episode": 68,
+            "absolute_episode": 37,
             "title": "Tyrant of Skulls",
             "summary": "",
             "release_date": "2002-01-13",
-            "chapters": "354-361, -16",
+            "chapters": "354-359, -16",
             "episodes": "273-277, 239"
         },
-        "Hollowed Bleach 31 - Grinning Revengers.mp4":
+        "Hollowed Bleach 38 - Grinning Revengers.mp4":
         {
             "season": 3,
-            "episode": 51,
-            "absolute_episode": 31,
+            "episode": 69,
+            "absolute_episode": 38,
             "title": "Grinning Revengers",
             "summary": "",
             "release_date": "2002-01-13",
-            "chapters": "360-364",
+            "chapters": "359-364",
             "episodes": "276-278"
         },
-        "Hollowed Bleach 32 - Spit On Your Own God.mp4":
+        "Hollowed Bleach 39 - Spit On Your Own God.mp4":
         {
             "season": 3,
-            "episode": 52,
-            "absolute_episode": 32,
+            "episode": 70,
+            "absolute_episode": 39,
             "title": "Spit On Your Own God",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "365-371",
             "episodes": "279-281"
         },
-        "Hollowed Bleach 33 - EXectuion, EXtinction.mp4":
+        "Hollowed Bleach 40 - Wolves Ain't Howl Alone.mp4":
         {
             "season": 3,
-            "episode": 53,
-            "absolute_episode": 33,
-            "title": "EXectuion, EXtinction",
+            "episode": 71,
+            "absolute_episode": 40,
+            "title": "Wolves Ain't Howl Alone",
             "summary": "",
             "release_date": "2002-01-13",
-            "chapters": "372-377",
-            "episodes": "282-285"
+            "chapters": "372-375",
+            "episodes": "282-283"
         },
-        "Hollowed Bleach 33 EX - EXecution, EXtinction.mp4":
+        "Hollowed Bleach 41 - EXecution, EXtinction.mp4":
         {
             "season": 3,
-            "episode": 53,
-            "absolute_episode": 33,
+            "episode": 72,
+            "absolute_episode": 41,
             "title": "EXecution, EXtinction",
             "summary": "",
             "release_date": "2002-01-13",
-            "chapters": "372-377",
-            "episodes": "282-285"
+            "chapters": "375-377",
+            "episodes": "283-285"
         },
-        "Hollowed Bleach 34 - Devil, Devil, Devil, Devil.mp4":
+        "Hollowed Bleach 42 - Devil, Devil, Devil, Devil.mp4":
         {
             "season": 3,
-            "episode": 54,
-            "absolute_episode": 34,
+            "episode": 73,
+            "absolute_episode": 42,
             "title": "Devil, Devil, Devil, Devil",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "378-383",
             "episodes": "286, 288-289"
         },
-        "Hollowed Bleach 35 - Vice It.mp4":
+        "Hollowed Bleach 43 - Vice It.mp4":
         {
             "season": 3,
-            "episode": 55,
-            "absolute_episode": 35,
+            "episode": 74,
+            "absolute_episode": 43,
             "title": "Vice It",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "383-387",
             "episodes": "289-291"
         },
-        "Hollowed Bleach 36 - The Burnout Inferno.mp4":
+        "Hollowed Bleach 44 - The Burnout Inferno.mp4":
         {
             "season": 3,
-            "episode": 56,
-            "absolute_episode": 36,
+            "episode": 75,
+            "absolute_episode": 44,
             "title": "The Burnout Inferno",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "388-395",
             "episodes": "292-294"
         },
-        "Hollowed Bleach 37 - DEICIDE.mp4":
+        "Hollowed Bleach 45 - DEICIDE.mp4":
         {
             "season": 3,
-            "episode": 57,
-            "absolute_episode": 37,
+            "episode": 76,
+            "absolute_episode": 45,
             "title": "DEICIDE",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "396-401",
             "episodes": "295-297"
         },
-        "Hollowed Bleach 38 - DEICIDE 2 - (End of the Chrysalis Age).mp4":
+        "Hollowed Bleach 46 - DEICIDE 2 [End of the Chrysalis Age].mp4":
         {
             "season": 3,
-            "episode": 58,
-            "absolute_episode": 38,
-            "title": "DEICIDE 2 - (End of the Chrysalis Age)",
+            "episode": 77,
+            "absolute_episode": 46,
+            "title": "DEICIDE 2 (End of the Chrysalis Age)",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "402-407",
             "episodes": "300-301"
         },
-        "Hollowed Bleach 39 - DEICIDE 3 - (THE END).mp4":
+        "Hollowed Bleach 47 - DEICIDE 3 [Black + White].mp4":
         {
             "season": 3,
-            "episode": 59,
-            "absolute_episode": 39,
-            "title": "DEICIDE 3 - (THE END)",
+            "episode": 78,
+            "absolute_episode": 47,
+            "title": "DEICIDE 3 (Black + White)",
             "summary": "",
             "release_date": "2002-01-13",
-            "chapters": "408-416",
-            "episodes": "302, 306-308"
+            "chapters": "408-411",
+            "episodes": "302, 306"
         },
-        "Hollowed Bleach 40 - DEICIDE 4 - (GOD IS DEAD).mp4":
+        "Hollowed Bleach 48 - DEICIDE 4 [THE END].mp4":
         {
             "season": 3,
-            "episode": 60,
-            "absolute_episode": 40,
-            "title": "DEICIDE 4 - (GOD IS DEAD)",
+            "episode": 79,
+            "absolute_episode": 48,
+            "title": "DEICIDE 4 (THE END)",
+            "summary": "",
+            "release_date": "2002-01-13",
+            "chapters": "412-416",
+            "episodes": "306-308"
+        },
+        "Hollowed Bleach 49 - DEICIDE 5 [GOD IS DEAD].mp4":
+        {
+            "season": 3,
+            "episode": 80,
+            "absolute_episode": 49,
+            "title": "DEICIDE 5 (GOD IS DEAD)",
             "summary": "",
             "release_date": "2002-01-13",
             "chapters": "417-421",
             "episodes": "308-309"
         },
-        "Hollowed Bleach 41 - Bleach My Soul.mp4":
+        "Hollowed Bleach 50 - Bleach My Soul.mp4":
         {
             "season": 3,
-            "episode": 61,
-            "absolute_episode": 41,
+            "episode": 81,
+            "absolute_episode": 50,
+            "title": "Bleach My Soul",
+            "summary": "",
+            "release_date": "2002-01-13",
+            "chapters": "422-423",
+            "episodes": "310, 342"
+        },
+        "Hollowed Bleach 50 EX - Bleach My Soul.mp4":
+        {
+            "season": 3,
+            "episode": 81,
+            "absolute_episode": 50,
             "title": "Bleach My Soul",
             "summary": "",
             "release_date": "2002-01-13",

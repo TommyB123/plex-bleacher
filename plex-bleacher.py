@@ -39,18 +39,29 @@ def get_bleach_episode_metadata(season: int, episode: int):
 
 
 def main():
-    organize_files()
-    apply_plex_metadata()
-    apply_tybw_metadata()
-    apply_cb_thumbnails()
+    while True:
+        clear_terminal()
+        print("Enter the option you'd like to use below. Enter any other key to cancel.")
+        print("1. Scan for and organize edited Bleach episodes.")
+        print("2. Apply edited Bleach episode metadata to Plex. Please only do this after you've verified that your edited episodes are present in your Plex server.")
+        print("3. Apply custom thumbnails authored by the creator of Concentrated Bleach. By default, Plex will simply use ones that it automatically generates. Sometimes they're kind of bad.")
+        print("4. Apply metadata to the TYBW arc. Only select this if those episodes are present under a Season 5 folder")
+        response = input("Option: ")
+        clear_terminal()
+        match response:
+            case '1':
+                organize_files()
+            case '2':
+                apply_plex_metadata()
+            case '3':
+                apply_cb_thumbnails()
+            case '4':
+                apply_tybw_metadata()
+            case _:
+                break
 
 
 def organize_files():
-    # prompt user to scan for bleach episodes
-    confirm = input('Scan for and organize edited Bleach episodes?\nY/N\n')
-    if confirm.lower() != 'y':
-        return
-
     files_moved = 0
     # organize files first
     for path, dirs, files in os.walk('.'):
@@ -105,13 +116,10 @@ def organize_files():
                 files_moved += 1
 
     print(f'{files_moved} episode(s) have been moved to their appropriate folders.\n')
+    input('Press enter to continue.')
 
 
 def apply_plex_metadata():
-    confirm = input('Would you like to apply episode metadata to Plex? Please only proceed when you\'ve moved the edited episodes and verified they\'re present in your media server.\nY/N\n')
-    if confirm.lower() != 'y':
-        return
-
     if plex_auth() is False:
         return
 
@@ -146,13 +154,10 @@ def apply_plex_metadata():
             episodes_changed += 1
 
     print(f'Applied metadata to {episodes_changed} edited Bleach episode(s).')
+    input('Press enter to continue.')
 
 
 def apply_tybw_metadata():
-    confirm = input('OPTIONAL: Would you like to apply metadata to the TYBW arc? Only select this if those episodes are present under a Season 5 folder.\nY/N\n')
-    if confirm.lower() != 'y':
-        return
-
     if plex_auth() is False:
         return
 
@@ -180,13 +185,10 @@ def apply_tybw_metadata():
             episodes_changed += 1
 
     print(f'Applied metadata to {episodes_changed} edited Bleach episode(s).')
+    input('Press enter to continue.')
 
 
 def apply_cb_thumbnails():
-    confirm = input('Would you like to apply custom thumbnails authored by the creator of Concentrated Bleach? If you select no, Plex will simply use ones that it automatically generates. Sometimes they\'re kind of bad.\nY/N\n')
-    if confirm.lower() != 'y':
-        return
-
     if plex_auth() is False:
         return
 
@@ -211,6 +213,8 @@ def apply_cb_thumbnails():
         print(f'Applied custom thumbnail to {episode.seasonEpisode.upper()}')
         path = f'thumbnails/{absolute_episode}.png'
         episode.uploadPoster(filepath=path)
+
+    input('Press enter to continue.')
 
 
 def plex_auth():
@@ -239,6 +243,13 @@ def plex_auth():
             return False
 
     return True
+
+
+def clear_terminal():
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 
 
 main()

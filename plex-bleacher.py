@@ -147,7 +147,7 @@ def apply_plex_metadata():
         date_comp = datetime.combine(date.fromisoformat(metadata['release_date']), datetime.min.time())
         if episode.originallyAvailableAt != date_comp:
             episode.editOriginallyAvailable(metadata['release_date'])
-            print(f'Applied fake release date to {episode.seasonEpisode.upper()}')
+            print(f'Applied release date to {episode.seasonEpisode.upper()}')
             changed = True
 
         if changed is True:
@@ -179,6 +179,12 @@ def apply_tybw_metadata():
         if episode.summary != newsummary:
             episode.editSummary(newsummary)
             print(f"Applied episode summary to {episode.seasonEpisode.upper()}")
+            changed = True
+
+        date_comp = datetime.combine(date.fromisoformat(metadata['release_date']), datetime.min.time())
+        if episode.originallyAvailableAt != date_comp:
+            episode.editOriginallyAvailable(metadata['release_date'])
+            print(f'Applied release date to {episode.seasonEpisode.upper()}')
             changed = True
 
         if changed is True:

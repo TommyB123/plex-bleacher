@@ -590,6 +590,39 @@
             "chapters": "251-254",
             "episodes": "151-153"
         },
+        "52 - The Slashing Opera.mkv":
+        {
+            "season": 3,
+            "episode": 17,
+            "absolute_episode": 52,
+            "title": "The Slashing Opera",
+            "summary": "Uryu faces off against a privaron espada of his own! Sneaking around in the shadows is an unexpected combatant…",
+            "release_date": "2007-12-19",
+            "chapters": "254-259",
+            "episodes": "153, 156-157"
+        },
+        "53 - Arms of the Giant.mkv":
+        {
+            "season": 3,
+            "episode": 18,
+            "absolute_episode": 53,
+            "title": "Arms of the Giant",
+            "summary": "Chad learns more about his power and comes across an espada-level opponent.",
+            "release_date": "2008-01-23",
+            "chapters": "259-263",
+            "episodes": "157-159"
+        },
+        "54 - There is No Heart Without You.mkv":
+        {
+            "season": 3,
+            "episode": 19,
+            "absolute_episode": 54,
+            "title": "There is No Heart Without You",
+            "summary": "Rukia comes face-to-face with an espada and is forced to come to grips with her trauma.",
+            "release_date": "2008-02-13",
+            "chapters": "262-269",
+            "episodes": "153-155, 160"
+        },
         "Hollowed Bleach 11.5 - Forest of Menos.mp4":
         {
             "season": 0,
@@ -600,50 +633,6 @@
             "release_date": "2007-11-07",
             "chapters": "Filler / 247",
             "episodes": "147-149"
-        },
-        "Hollowed Bleach 14 - The Slashing Opera.mp4":
-        {
-            "season": 3,
-            "episode": 44,
-            "absolute_episode": 14,
-            "title": "The Slashing Opera",
-            "summary": "",
-            "release_date": "2007-12-12",
-            "chapters": "254-259",
-            "episodes": "153, 156-157"
-        },
-        "Hollowed Bleach 15 - Left Arm of the Devil.mp4":
-        {
-            "season": 3,
-            "episode": 45,
-            "absolute_episode": 15,
-            "title": "Left Arm of the Devil",
-            "summary": "",
-            "release_date": "2008-01-23",
-            "chapters": "259-262",
-            "episodes": "157-159"
-        },
-        "Hollowed Bleach 16 - Hide Away From the Sun.mp4":
-        {
-            "season": 3,
-            "episode": 46,
-            "absolute_episode": 16,
-            "title": "Hide Away From the Sun",
-            "summary": "",
-            "release_date": "2008-01-30",
-            "chapters": "262-266",
-            "episodes": "153-155"
-        },
-        "Hollowed Bleach 17 - There Is No Heart Without You.mp4":
-        {
-            "season": 3,
-            "episode": 47,
-            "absolute_episode": 17,
-            "title": "No Heart Without You",
-            "summary": "",
-            "release_date": "2008-02-06",
-            "chapters": "266-269",
-            "episodes": "155, 159-160"
         },
         "Hollowed Bleach 18 - Don't Kill My Volupture.mp4":
         {

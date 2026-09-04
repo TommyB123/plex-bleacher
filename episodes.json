@@ -623,6 +623,17 @@
             "chapters": "262-269",
             "episodes": "153-155, 160"
         },
+        "55 - Don't Kill My Volupture.mkv":
+        {
+            "season": 3,
+            "episode": 20,
+            "absolute_episode": 55,
+            "title": "Don't Kill My Volupture",
+            "summary": "Renji falls into the palm of the octavo espada’s hands. Everyone senses the end of Rukia and Aaroniero’s battle.",
+            "release_date": "2008-02-20",
+            "chapters": "264-265, 269-272",
+            "episodes": "159, 161-162"
+        },
         "Hollowed Bleach 11.5 - Forest of Menos.mp4":
         {
             "season": 0,
@@ -633,17 +644,6 @@
             "release_date": "2007-11-07",
             "chapters": "Filler / 247",
             "episodes": "147-149"
-        },
-        "Hollowed Bleach 18 - Don't Kill My Volupture.mp4":
-        {
-            "season": 3,
-            "episode": 48,
-            "absolute_episode": 18,
-            "title": "Don't Kill My Volupture",
-            "summary": "",
-            "release_date": "2008-02-20",
-            "chapters": "264-265, 270-272",
-            "episodes": "159, 161-162"
         },
         "Hollowed Bleach 19 - The Monster.mp4":
         {

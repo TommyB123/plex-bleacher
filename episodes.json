@@ -634,6 +634,17 @@
             "chapters": "264-265, 269-272",
             "episodes": "159, 161-162"
         },
+        "56 - The Monster.mkv":
+        {
+            "season": 3,
+            "episode": 21,
+            "absolute_episode": 56,
+            "title": "The Monster",
+            "summary": "Orihime has an encounter with some arrancar. Uryu and Renji team up to fight Szayelaporro.",
+            "release_date": "2008-03-05",
+            "chapters": "272-278",
+            "episodes": "163-165"
+        },
         "Hollowed Bleach 11.5 - Forest of Menos.mp4":
         {
             "season": 0,
@@ -644,17 +655,6 @@
             "release_date": "2007-11-07",
             "chapters": "Filler / 247",
             "episodes": "147-149"
-        },
-        "Hollowed Bleach 19 - The Monster.mp4":
-        {
-            "season": 3,
-            "episode": 49,
-            "absolute_episode": 19,
-            "title": "The Monster",
-            "summary": "",
-            "release_date": "2008-02-27",
-            "chapters": "272-278",
-            "episodes": "162-164"
         },
         "Hollowed Bleach 20 - Jugulators.mp4":
         {

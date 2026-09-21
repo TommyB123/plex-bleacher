@@ -645,11 +645,22 @@
             "chapters": "272-278",
             "episodes": "163-165"
         },
-        "Hollowed Bleach 11.5 - Forest of Menos.mp4":
+        "Hollowed Bleach SP01 - Memories of Nobody.mkv":
+        {
+            "season": 0,
+            "episode": 10,
+            "absolute_episode": "SP01",
+            "title": "Memories of Nobody",
+            "summary": "After unidentified beings known as \"Blanks\" start popping up, they are soon followed by a Soul Reaper named Senna who makes them disappear. Puzzled by these unknown beings and the even more mysterious girl, Ichigo and Rukia set out to learn more, but uncover an evil plot when a menacing clan tries to kidnap Senna.",
+            "release_date": "2006-12-16",
+            "chapters": "N/A",
+            "episodes": "Movie 01"
+        },
+        "Hollowed Bleach SP02 - Forest of Menos.mkv":
         {
             "season": 0,
             "episode": 3,
-            "absolute_episode": "11.5",
+            "absolute_episode": "SP02",
             "title": "Forest of Menos",
             "summary": "",
             "release_date": "2007-11-07",

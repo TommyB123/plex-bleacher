@@ -203,9 +203,12 @@ def apply_cb_thumbnails():
             # skip episodes that don't resolve any metadata
             continue
 
+        thumbnail_path = "thumbnails"
+        thumbnail_extension = 'png'
         if originalname.find('Hollowed Bleach') != -1:
-            # skip episodes that aren't Concentrated Bleach edits
-            continue
+            # override thumbnail path for Hollowed Bleach thumbnails instead
+            thumbnail_path = 'hbthumbnails'
+            thumbnail_extension = 'jpg'
 
         absolute_episode = metadata['absolute_episode']
         if isinstance(metadata['absolute_episode'], str):
@@ -213,8 +216,12 @@ def apply_cb_thumbnails():
         elif isinstance(absolute_episode, int):
             absolute_episode = f'{absolute_episode:02d}'  # apply leading zeroes when the CB episode is a regular int
 
+        path = f'{thumbnail_path}/{absolute_episode}.{thumbnail_extension}'
+        if os.path.exists(path) is False:
+            # quietly skip episodes that don't have thumbnails
+            continue
+
         print(f'Applied custom thumbnail to {episode.seasonEpisode.upper()}')
-        path = f'thumbnails/{absolute_episode}.png'
         episode.uploadPoster(filepath=path)
 
     input('Press enter to continue.')

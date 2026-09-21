@@ -1019,133 +1019,144 @@
             "chapters": "422-423",
             "episodes": "310, 342"
         },
-        "[424-428] Chipped Bleach 01.mkv":
+        "Hollowed Bleach 51 - The Lost Agent.mkv":
         {
             "season": 4,
             "episode": 1,
-            "absolute_episode": 1,
+            "absolute_episode": 51,
             "title": "The Lost Agent",
             "summary": "",
             "release_date": "2011-10-11",
-            "chapters": "424-428",
+            "chapters": "424-427",
             "episodes": "343-344"
         },
-        "[428-431] Chipped Bleach 02.mkv":
+        "Hollowed Bleach 52 - Welcome to our EXECUTION.mkv":
         {
             "season": 4,
             "episode": 2,
-            "absolute_episode": 2,
+            "absolute_episode": 52,
             "title": "Welcome to our EXECUTION",
             "summary": "",
             "release_date": "2011-10-25",
             "chapters": "428-431",
             "episodes": "344-346"
         },
-        "[431-433] Chipped Bleach 03.mkv":
+        "Hollowed Bleach 53 - BERRY IN THE BOX.mkv":
         {
             "season": 4,
             "episode": 3,
-            "absolute_episode": 3,
-            "title": "The Six Fullbringers",
+            "absolute_episode": 53,
+            "title": "BERRY IN THE BOX",
             "summary": "",
             "release_date": "2011-11-01",
-            "chapters": "431-433",
-            "episodes": "346-347"
+            "chapters": "432-438",
+            "episodes": "346-349"
         },
-        "[434-439] Chipped Bleach 04.mkv":
+        "Hollowed Bleach 54 - Mute Friendship.mkv":
         {
             "season": 4,
             "episode": 4,
-            "absolute_episode": 4,
-            "title": "Berry in the Box",
+            "absolute_episode": 54,
+            "title": "Mute Friendship",
             "summary": "",
-            "release_date": "2011-11-15",
-            "chapters": "434-439",
-            "episodes": "348-349"
+            "release_date": "2011-11-22",
+            "chapters": "438-441",
+            "episodes": "349-350"
         },
-        "[440-444] Chipped Bleach 05.mkv":
+        "Hollowed Bleach 55 - The Rising.mkv":
         {
             "season": 4,
             "episode": 5,
-            "absolute_episode": 5,
+            "absolute_episode": 55,
             "title": "The Rising",
             "summary": "",
-            "release_date": "2011-11-29",
-            "chapters": "440-444",
-            "episodes": "350-352"
+            "release_date": "2011-12-06",
+            "chapters": "441-444",
+            "episodes": "351-352"
         },
-        "[445-447] Chipped Bleach 06.mkv":
+        "Hollowed Bleach 56 - The Dark Beat.mkv":
         {
             "season": 4,
             "episode": 6,
-            "absolute_episode": 6,
+            "absolute_episode": 56,
             "title": "The Dark Beat",
             "summary": "",
             "release_date": "2011-12-20",
-            "chapters": "445-447",
+            "chapters": "445-448",
             "episodes": "353-354"
         },
-        "[447-451] Chipped Bleach 07.mkv":
+        "Hollowed Bleach 57 -  Welcome to our EXECUTION 2.mkv":
         {
             "season": 4,
             "episode": 7,
-            "absolute_episode": 7,
-            "title": "Welcome to our EXECUTION 2",
+            "absolute_episode": 57,
+            "title": " Welcome to our EXECUTION 2",
             "summary": "",
-            "release_date": "2011-12-27",
-            "chapters": "447-451",
-            "episodes": "354, 356"
+            "release_date": "2012-01-17",
+            "chapters": "448-451",
+            "episodes": "356"
         },
-        "[452-453] Chipped Bleach 08.mkv":
+        "Hollowed Bleach 58 - End of Bond.mkv":
         {
             "season": 4,
             "episode": 8,
-            "absolute_episode": 8,
-            "title": "erosion/implosion",
+            "absolute_episode": 58,
+            "title": "End of Bond",
             "summary": "",
             "release_date": "2012-01-24",
-            "chapters": "452-453",
-            "episodes": "357-358"
+            "chapters": "452-456",
+            "episodes": "357-360"
         },
-        "[454-458] Chipped Bleach 09.mkv":
+        "Hollowed Bleach 59 - Death & Strawberry 2.mkv":
         {
             "season": 4,
             "episode": 9,
-            "absolute_episode": 9,
-            "title": "End of All Bonds",
+            "absolute_episode": 59,
+            "title": "Death & Strawberry 2",
             "summary": "",
-            "release_date": "2012-02-07",
-            "chapters": "454-458",
-            "episodes": "359-360"
+            "release_date": "2012-02-14",
+            "chapters": "456-459",
+            "episodes": "360-361"
         },
-        "[459-463] Chipped Bleach 10.mkv":
+        "Hollowed Bleach 60 - The Deathberry Returns 2.mkv":
         {
             "season": 4,
             "episode": 10,
-            "absolute_episode": 10,
+            "absolute_episode": 60,
             "title": "The Deathberry Returns 2",
             "summary": "",
             "release_date": "2012-02-21",
-            "chapters": "459-463",
+            "chapters": "460-463",
             "episodes": "361-362"
         },
-        "[464-472] Chipped Bleach 11.mkv":
+        "Hollowed Bleach 61 - Pray for Predators.mkv":
         {
             "season": 4,
             "episode": 11,
-            "absolute_episode": 11,
-            "title": "Raid as a Blade",
+            "absolute_episode": 61,
+            "title": "Pray for Predators",
             "summary": "",
             "release_date": "2012-03-06",
-            "chapters": "464-472",
-            "episodes": "363-364"
+            "chapters": "464-473",
+            "episodes": "363-365"
         },
-        "[470, 473-479] Chipped Bleach 12.mkv":
+        "Hollowed Bleach 62 - Goodbye to Our Xcution.mkv":
         {
             "season": 4,
             "episode": 12,
-            "absolute_episode": 12,
-            "title": "Goodbye to our XCution",
+            "absolute_episode": 62,
+            "title": "Goodbye to Our Xcution",
+            "summary": "",
+            "release_date": "2012-03-20",
+            "chapters": "470, 473-479",
+            "episodes": "365-366"
+        },
+        "Hollowed Bleach 62 EX - Goodbye to Our Xcution.mkv":
+        {
+            "season": 4,
+            "episode": 12,
+            "absolute_episode": 62,
+            "title": "Goodbye to Our Xcution",
             "summary": "",
             "release_date": "2012-03-20",
             "chapters": "470, 473-479",

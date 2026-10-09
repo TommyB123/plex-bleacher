@@ -10,20 +10,12 @@ from datetime import datetime, date
 with open('episodes.json', encoding='utf-8') as f:
     series_data = json.load(f)
 
-with open('config.json') as f:
-    plex_data = json.load(f)
-
 with open('tybw.json', encoding='utf-8') as f:
     tybw_data = json.load(f)
 
-# your plex username or email
-PLEX_LOGIN = plex_data['plex_username']
-
-# your plex password
-PLEX_PASSWORD = plex_data['plex_password']
-
-# the name of your plex media server
-PLEX_SERVER_NAME = plex_data['plex_server_name']
+PLEX_LOGIN = ''
+PLEX_PASSWORD = ''
+PLEX_SERVER_NAME = ''
 
 plex_account: MyPlexAccount = None
 plex_server: PlexServer = None
@@ -46,6 +38,7 @@ def main():
         print("2. Apply edited Bleach episode metadata to Plex. Please only do this after you've verified that your edited episodes are present in your Plex server.")
         print("3. Apply custom thumbnails authored by the creator of Concentrated Bleach. By default, Plex will simply use ones that it automatically generates. Sometimes they're kind of bad.")
         print("4. Apply metadata to the TYBW arc. Only select this if those episodes are present under a Season 5 folder")
+        print("5. Delete configuration file. Useful if you've entered incorrect information and don't want to modify it by hand.")
         response = input("Option: ")
         clear_terminal()
         match response:
@@ -57,6 +50,8 @@ def main():
                 apply_cb_thumbnails()
             case '4':
                 apply_tybw_metadata()
+            case '5':
+                delete_config()
             case _:
                 break
 
@@ -228,6 +223,8 @@ def apply_cb_thumbnails():
 
 
 def plex_auth():
+    check_config()
+
     global plex_account
     if plex_account is None:
         print('Attempting to authenticate with Plex using the credentials provided.')
@@ -253,6 +250,64 @@ def plex_auth():
             return False
 
     return True
+
+
+def check_config():
+    clear_terminal()
+    if os.path.exists('config.json') is False:
+        # create a new config file
+        data = {
+            'plex_username': '',
+            'plex_password': '',
+            'plex_server_name': ''
+        }
+
+        print('Writing new config file.')
+        with open('config.json', 'x') as file:
+            file.write(json.dumps(data))
+
+    with open('config.json') as file:
+        plex_data = json.load(file)
+
+        # your plex username or email
+        if len(plex_data['plex_username']) == 0:
+            plex_data['plex_username'] = input('Enter the email associated with your Plex account\nEmail: ')
+            changed = True
+
+        global PLEX_LOGIN
+        PLEX_LOGIN = plex_data['plex_username']
+
+        # your plex password
+        if len(plex_data['plex_password']) == 0:
+            plex_data['plex_password'] = input('Enter the password associated with your Plex account\nPassword: ')
+            changed = True
+
+        global PLEX_PASSWORD
+        PLEX_PASSWORD = plex_data['plex_password']
+
+        # the name of your plex media server
+        if len(plex_data['plex_server_name']) == 0:
+            plex_data['plex_server_name'] = input('Enter the name of the media server that contains Concentrated Bleach\nServer: ')
+            changed = True
+
+        global PLEX_SERVER_NAME
+        PLEX_SERVER_NAME = plex_data['plex_server_name']
+
+    if changed is True:
+        with open('config.json', 'w') as file:
+            file.write(json.dumps(plex_data))
+
+    clear_terminal()
+
+
+def delete_config():
+    if os.path.exists('config.json') is True:
+        os.remove('config.json')
+        print('Config file has been deleted. You will be prompted to enter your Plex information again next time a Plex API call is made.')
+    else:
+        print('No configuration file exists.')
+
+    input('Press enter to continue.')
 
 
 def clear_terminal():

@@ -309,6 +309,16 @@ def delete_config():
 
     input('Press enter to continue.')
 
+    # reset plex info variables
+    global PLEX_LOGIN
+    PLEX_LOGIN = ''
+
+    global PLEX_PASSWORD
+    PLEX_PASSWORD = ''
+
+    global PLEX_SERVER_NAME
+    PLEX_SERVER_NAME = ''
+
 
 def clear_terminal():
     if os.name == 'nt':

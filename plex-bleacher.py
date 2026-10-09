@@ -268,6 +268,7 @@ def check_config():
 
     with open('config.json') as file:
         plex_data = json.load(file)
+        changed = False
 
         # your plex username or email
         if len(plex_data['plex_username']) == 0:

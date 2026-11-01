@@ -1,3 +1,8 @@
+This project has been sunset in favor of a more generalized script that supports multiple anime edits. The new version can be found [here](https://github.com/TommyB123/pace2plex).
+
+<details>
+<summary>Original Readme</summary>
+
 # Plex Bleacher
 Plex Bleacher is a simple and somewhat jank script that can be used to organize various edits of the Bleach anime on your Plex library. It offers the ability to organize your files into season folders appropriately, apply respective metadata through the Plex API and also assign custom episode thumbnails.
 
@@ -35,3 +40,4 @@ Requires a custom series named Concentrated Bleach to be present on your media s
 [Concentrated Bleach Episode Thumbnails](https://drive.google.com/file/d/1GBQ3VMIPcpzyfH9bFfAZyFPlhv2XVrpX/view)
 
 [Hollowed Bleach Episode Names](https://docs.google.com/spreadsheets/d/1-ipC6DpZw4GlmMnUw4fOsIWXCbK0s0St2vbsMPr6WfI/edit?gid=0#gid=0)
+</details>
